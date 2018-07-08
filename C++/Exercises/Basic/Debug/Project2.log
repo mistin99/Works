@@ -1,4 +1,5 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Project2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  dungeonCrawl.cpp
-d:\c++\exercises\basic\dungeoncrawl.cpp(5): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Project2.vcxproj -> D:\C++\Exercises\Basic\Debug\Basic.exe
+  FriendlyStrings.cpp
+d:\c++\exercises\basic\friendlystrings.cpp(39): warning C4018: '<': signed/unsigned mismatch
+d:\c++\exercises\basic\friendlystrings.cpp(41): warning C4018: '<': signed/unsigned mismatch
+  Project2.vcxproj -> D:\C++\Exercises\Debug\Basic.exe
