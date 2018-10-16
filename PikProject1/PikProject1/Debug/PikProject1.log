@@ -1,0 +1,5 @@
+﻿  Main.c
+c:\users\misti\source\repos\pikproject1\pikproject1\main.c(5): warning C4081: expected 'newline'; found ';'
+c:\users\misti\source\repos\pikproject1\pikproject1\main.c(28): warning C4477: 'printf' : format string '%.2lf' requires an argument of type 'double', but variadic argument 1 has type 'int'
+c:\users\misti\source\repos\pikproject1\pikproject1\main.c(32): warning C4477: 'printf' : format string '%.2lf' requires an argument of type 'double', but variadic argument 1 has type 'int'
+  PikProject1.vcxproj -> C:\Users\misti\source\repos\PikProject1\Debug\PikProject1.exe
