@@ -12,24 +12,24 @@ int main() {
 	int a, b, c;
 	double  re, im, d;
 
-	printf("\n Enter a: ");
+	printf("\n  Въведи a: ");
 	scanf("%d", &a);
-	printf("\n Enter b: ");
+	printf("\n Въведи b: ");
 	scanf("%d", &b);
-	printf("\n Enter c: ");
+	printf("\n Въведи c: ");
 	scanf("%d", &c);
 
 
 	if (a == 0 && b == 0) {
-		printf("\n izrodeno uravnenie!");
+		printf("\n Изродено уравнение!");
 	}
 	else {
 		if (a == 0) {
-			printf("\n lineyno uravnenie x= %.2lf", -c / b);
+			printf("\n Линейно уравнение x= %.2lf", -c / b);
 		}
 		else {
 			if (c == 0) {
-				printf("\n dva korena: x1= %.2lf, x2=0", -b / a);
+				printf("\n Два корена: x1= %.2lf, x2=0", -b / a);
 			}
 			else {
 				re = -b / (2 * a);
@@ -37,13 +37,13 @@ int main() {
 				im = sqrt(fabs(d)) / (2 * a);
 
 				if (d > 0) {
-					printf("dva korena: x1= %.2lf, x2=%.2lf", re + im, re - im);
+					printf(" Два корена: x1= %.2lf, x2=%.2lf", re + im, re - im);
 				}
 				else {
 					if (d < 0) {
-						printf("kompleksni chisla: (%.2lf, %.2lf); (%.2lf, %.2lf)", re, im, re, -im);
+						printf("Комплексни числа: (%.2lf, %.2lf); (%.2lf, %.2lf)", re, im, re, -im);
 					}
-					else printf("dva ravni korena: x1 = x2, x1=%.2lf", re);
+					else printf("два равни корена: x1 = x2, x1=%.2lf", re);
 				}
 
 			}
