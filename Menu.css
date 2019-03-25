@@ -1,0 +1,60 @@
+body {
+  background-image:url(Images/toughest-sports.jpg) ;
+  background-image: center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+h1.match {
+  color:rgb(74, 1, 0);
+}
+.MainMenu {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.MainMenu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 50px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.MainMenu a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.MainMenu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+  .sidenav {
+  background-color:#070606;
+  width: 10%;
+  height: 100%;
+
+    z-index: 1;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    padding-top: 60px;
+
+
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
